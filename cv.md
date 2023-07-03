@@ -42,6 +42,13 @@ function dblLinear(n) {
 
 >Link to the project: https://github.com/BrainHew/SV4VS_Kursach
 
+### Education
+I am a 3rd year student of the BRU Faculty of Engineering and Economics.I took courses on Stepik.
+
+>link to the certificate: https://stepik.org/cert/2085462
+
+>link to the certificate: https://stepik.org/cert/2085480
+
 ### Foreign Languages Skills
 English - A1;
 German - A2;
