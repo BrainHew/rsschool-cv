@@ -10,7 +10,8 @@ Email: kozhemyacko.vadim@yandex.ru
 VK: https://vk.com/vadfenrir
 
 ### About Me
-I am a 3rd year BRU student of the Faculty of Engineering and Economics. My goals are to become a successful programmer, learn new things and become better in this field. I'm diligent, and I'm getting things done. I approach the matter responsibly and bring everything to the end.
+I am a 3rd year student of the BRU Faculty of Engineering and Economics. My goals are to become a successful programmer, learn something new and become better in this field. I have no work experience, but I created several projects during my studies. My greatest strength is C#, ASP.NET , created a backend on it using the MVC structure or Web API, also used ASP.NET Core Identity. From the frontend, I made up websites using React JS and Redux libraries, and also tried to write in TypeScript, below I gave a link to the repository of this project.
+Although I have used all these technologies, I feel insecure about them. There is a lack of a strong JS base.
 ### Skills
 - C#, .NET, ASP.NET
 - SQL
