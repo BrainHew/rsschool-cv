@@ -1,27 +1,92 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Заголовок страницы</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Заголовок страницы</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Ссылка 1</a></li>
-          <li><a href="#">Ссылка 2</a></li>
-          <li><a href="#">Ссылка 3</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <h2>Заголовок основной части страницы</h2>
-      <p>Текст основной части страницы...</p>
-    </main>
-    <footer>
-      <p>Копирайт и информация о правах</p>
-    </footer>
-  </body>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Curriculum Vitae</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="row">
+		<div class="content">
+			<div class="inner-content">
+				<header>
+					<p class="test">Vadim Kozhemyako</p>
+					<p class="test1">Software Engineer</p>
+				</header>
+				<main>
+					<p class="text4">I am a 3rd year student of the BRU Faculty of Engineering and Economics.<br>
+						My goals are to become a successful programmer, learn something new and become better in this field.<br>
+						I have no work experience, but I created several projects during my studies. My greatest strength is C#, ASP.NET,
+						created a backend on it using the MVC structure or Web API, also used ASP.NET Core Identity. From the frontend,
+						I made up websites using React JS and Redux libraries, and also tried to write in TypeScript, below I gave a link to the repository of this project. <br>
+						Although I have used all these technologies, I feel insecure about them.<br>
+						There is a lack of a strong JS base.<br><br>
+					</p>
+					<h2>Work experience</h2>
+					<p class="text4">I have no work experience, but there are projects that I did while studying at the university.<br>
+						Project Name: Quiz on anime or game themes<br>
+						Link to the project: <a class="a" href="https://github.com/BrainHew/SV4VS_Kursach">https://github.com/BrainHew/SV4VS_Kursach</a>.
+					</p>
+				</main>
+			</div>
+			<div class="sidebar">
+				<div class="inner-sidebar">
+					<img id="sorka" src="img/Sorka2.png" width="200" alt="d2sorka">
+					<div class="inner-sidebar-text">
+            <p class="text1">Contact</p>
+            <ul>
+              <li>
+                <p class="text2">Phone</p>
+                <p class="text3">+375 29 770-44-09</p>
+              </li>
+              <li>
+                <p class="text2">Email</p>
+                <p class="text3">kozhemyacko.vadim@yandex.ru</p>
+              </li>
+              <li>
+                <p class="text2">Address</p>
+                <p class="text3">City Mogilev</p>
+              </li>
+            </ul>
+            <p class="text1">Education</p>
+            <p class="text3">2023 A 3-year student of BRU</p>
+						<p class="text1">Skills</p>
+						<div class="text2">
+							<ul>
+								<li>
+									<a>C#, .NET, ASP.NET</a>
+								</li>
+								<li>
+									SQL
+								</li>
+								<li>
+									CSS & HTML
+								</li>
+								<li>
+									HTML5
+								</li>
+								<li>
+									JS, React JS, Redux
+								</li>
+							</ul>
+						</div>
+						<p class="text1">Language</p>
+						<p class="text2">English - A1</p>
+						<p class="text2">German - A2</p>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<div class="inner-footer">
+					<h1>Reference</h1>
+					<a href="https://github.com/BrainHew"><img id="gh" src="img/github-logo.png" width="250" alt="gh"></a>
+					<a href="https://vk.com/vadfenrir"><img id="vk" src="img/vk-logo.png" width="250" alt="vk"></a>
+					<p id="year">2023<a href="https://rs.school/js/"><img id="rs" src="img/rs.png" width="150" alt="rs"></a></p>
+				</div>
+			</footer>
+		</div>
+	</div>
+</body>
 </html>
