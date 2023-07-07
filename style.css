@@ -1,13 +1,13 @@
-#test{
+.test{
 	text-align:center 15px;
-	font-size:60px;
+	font-size:40px;
 	font-family: 'Mali';
-	margin-top: 40px;
+	margin-top: 15px;
 }
 
-#test1{
+.test1{
 	color:#7b7f86;
-	font-size:40px;
+	font-size:36px;
 	font-family: 'Mali';
 }
 .sidebar{
@@ -15,7 +15,7 @@
 	margin-left: -532px;
 	width:12cm;
 	float:left;
-	height:37cm;
+	height:100%;
 }
 #year{
 	margin-top: 400px;
@@ -26,7 +26,7 @@
 }
 .inner-sidebar{
 	background:#323b4c;
-	height:37cm;
+	height:100%;
 }
 .inner-sidebar-text{
 	margin-top: -30px;
@@ -52,10 +52,13 @@
 	background:white;
 }
 
-#sorka{
-	padding-top:20px;
+#sorka {
 	margin: 10px auto 20px;
-    display: block;
+	display: block;
+	border: 2px solid #ef670d;
+	border-radius: 0 20px 20px 0;
+	width: 200px;
+  height: 260px;
 }
 #vk{
 	padding-top:20px;
@@ -69,31 +72,31 @@
     display: block;
 	float:left;
 }
-#text1{
-	color:white;
+.text1{
+	color:#f1b213;
 	font-size:40px;
 	font-family: 'Gloria Hallelujah';
 	text-align:center  15px;
     border-bottom: 3px solid #cccccc; /* Цвет линии внизу */
 }
 
-#text2{
-	color:white;
+.text2{
+	color:#d4ab5c;
 	font-size:26px;
 	font-family: 'Gloria Hallelujah';
 	text-align:center  15px;
 
 }
-#text3{
+.text3{
 	color:white;
 	font-size:18px;
 	font-family: 'Gloria Hallelujah';
 	text-align:center  15px;
 
 }
-#text4{
+.text4{
 	color:#323332;
-	font-size:34px;
+	font-size:28px;
 	font-family: 'Gloria Hallelujah';
 }
 h1{
@@ -113,11 +116,13 @@ h3{
 	font-size:45px;
 	color:black;
 }
-
+#rs{
+  margin-left: 50px;
+  margin-top: -20px;
+}
 .row {
-	height: 36.95cm;
+	height: 36.9cm;
 	width:40.5cm;
 	margin: 0 auto;
 	border: 2px solid #323b4c;
 }
-
